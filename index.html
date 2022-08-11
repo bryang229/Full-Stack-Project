@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up/Login</title>
+    <link rel="stylesheet" href="lib/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="lib/js/component.js" defer></script>
+    <script src="lib/js/navScript.js" defer></script>
+    <script src="lib/js/script.js" defer></script>
+</head>
+
+<nav>
+    <div>Login</div>
+    <div> Sign Up</div>
+    <div>Your data</div>
+</nav>
+
+<body>
+
+    <h1 id="loginOrSignUp">Login here!</h1>
+
+
+    <div id ="formsContainer">
+        <form class = "userForm" id = "login" >
+            <label for="emailL">Enter your email:</label>
+            <input type="email" id="emailL">
+            <br>
+            <label for="usernameL">Enter your username:</label>
+            <input type="text" id="usernameL">
+            <br>
+            <label for="passwordL">Enter your password:</label>
+            <input type="password" id="passwordL">
+            <br>
+            <input type="submit" id="loginButton">
+        </form>
+        <form class="userForm" id="signUp">
+            <label for="emailS">Enter your email:</label>
+            <input type="email" id="emailS">
+            <br>
+            <label for="usernameS">Enter your username:</label>
+            <input type="text" id="usernameS">
+            <br>
+            <label for="passwordS">Enter your password:</label>
+            <input type="password" id="passwordS">
+            <br>
+            <label for="passwordConfirmS">Renter your password:</label>
+            <input type="password" id="passwordConfirmS">
+            <br>
+            <input type="submit" id="signUpButton">
+        </form>
+    </div>
+</body>
+</html>

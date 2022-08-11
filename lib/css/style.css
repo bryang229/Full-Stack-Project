@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color:#CAD2C5;
+}
+
+.userForm{
+    display:flex;
+    flex-flow:column;
+    width: 15%;
+    min-width: 200px;
+    max-width: 400px;
+    border: 5px solid #1F0318;
+    border-radius: 5px;
+    padding:20px;
+
+}
+
+#formsContainer{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+}
+
+nav{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+    height:15%;
+    margin:0px;
+    border:10px solid #1F0318;
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #6DA29C;
+}
+nav div{
+    padding:10px 20px;
+    cursor: pointer;
+} 
+/* 
+Colors:
+    - Skobeloff     :  #0F7173
+    - Cadet Blue    :  #6DA29C
+    - Ash Gray      :  #CAD2C5
+    - Maximum Red   :  #DD1C1A
+    - Dark Purple   :  #1F0318
+*/
